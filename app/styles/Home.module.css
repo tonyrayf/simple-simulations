@@ -1,0 +1,26 @@
+.container
+{
+    padding: 20px;
+    text-align: center;
+}
+.heading
+{
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 50px;
+    border: none;
+}
+.by
+{
+    text-align: center;
+    font-style: italic;
+}
+
+.cardContainer
+{
+    display: flex;              /* Используем flexbox для горизонтального расположения */
+    justify-content: center;    /* Центрируем карточки по горизонтали */
+    gap: 20px;                  /* Добавляем промежуток между карточками */
+    margin-top: 20px;           /* Отступ сверху для отделения от заголовка */
+}
