@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import styles from '@/app/styles/ReturnHome.module.css'; 
 
-export default function GamePage ({game_src} : string) {
+export default function GamePage ({game_src} : {game_src : string}) {
     return (
         <>
         <iframe
