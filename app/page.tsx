@@ -8,8 +8,8 @@ export default function Home() {
 			<p className={styles.by}>by ARF-paradox</p>
 
 			<div className={styles.cardContainer}>
-				<SimulationCard name='wAvEs' image='wave.jpg'/>
-				<SimulationCard name='pendulum' image='pendulum.jpg'/>
+				<SimulationCard name='wAvEs' image='wave.jpg' url='simulations/waves' />
+				<SimulationCard name='pendulum' image='pendulum.jpg' url='simulations/pendulum' />
 			</div>
 		</>
 	);

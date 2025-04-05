@@ -5,12 +5,13 @@ interface SimulationCardProps
 {
     name : string;
     image : string;
+    url : string;
 }
 
-export default function SimulationCard({name, image} : SimulationCardProps)
+export default function SimulationCard({name, image, url} : SimulationCardProps)
 {
     return (
-        <Link href="simulations/waves" className={styles.card}>
+        <Link href={url} className={styles.card}>
             <img src={image} />
             {name}
         </Link>
